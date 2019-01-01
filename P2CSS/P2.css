@@ -1,0 +1,138 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #53cde2;
+}
+
+/* First Section */
+.colored-section {
+  background-color: #34a7b2;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  padding: 3% 11%;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+/* First / Title Section */
+.title-row {
+  padding: 7% 10% 17%;
+}
+
+.top-heading {
+  font-size: 4rem;
+  text-align: left;
+  padding: 3% 0 0 3%;
+}
+
+.title-image {
+  width: 50%;
+  position: absolute;
+  transform: rotate(20deg);
+  left: 30%;
+}
+
+/* Second Section / Cards */
+.middle-row {
+  margin: 10% 0;
+}
+
+.col-lg-4 {
+  padding: 7%;
+}
+
+.card-img-top {
+  border-radius: 100%;
+}
+
+.card {
+  border-style: none;
+  margin-bottom: 15%;
+}
+
+.card-title {
+  margin-top: 10%;
+  font-size: 2rem;
+}
+
+.card-text {
+  margin: 10% 0;
+}
+
+/* Card Buttons */
+.btn {
+
+  background-color: #34a7b2;
+  border-color: #34a7b2;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #53cde2;
+  border-color: #53cde2;
+}
+
+/* Third Section */
+
+/* Carousel */
+.bottom-section {
+  height: 70%;
+}
+
+/* Card Buttons */
+.carousel-indicators li {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  background-color: #34a7b2;
+  border-color: #34a7b2;
+  border-radius: 10px;
+}
+
+.carousel-indicators li:hover {
+  background-color: #53cde2;
+  border-color: #53cde2;
+}
+
+
+/* Fourth Section */
+
+.container {
+  margin: 7% auto;
+}
+
+/* Footer */
+.bottom-row {
+  padding: 0;
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+
+/* Media Query */
+@media (max-width: 1025px) {
+  .top-heading {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    padding-top: 10%;
+  }
+}
